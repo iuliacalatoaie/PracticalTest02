@@ -8,4 +8,11 @@ public class Constants {
     final public static Integer PORT = 2000;
     final public static Integer WEBSITE_PORT = 13;
     final public static String WEBSITE_URL = "utcnist.colorado.edu";
+    public static final String SET = "set";
+    public static final String RESET = "reset";
+    public static final String POLL = "poll";
+
+    public static final String NONE = "none";
+    public static final String ACTIVE = "active";
+    public static final String INACTIVE = "inactive";
 }

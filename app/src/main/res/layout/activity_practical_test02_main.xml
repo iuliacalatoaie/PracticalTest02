@@ -109,11 +109,23 @@
             android:layout_weight="1">
 
             <Button
+                android:id="@+id/client_connect_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:hint="@string/connect_to_server"/>
         </ScrollView>
         </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/response_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="10"/>
+    </ScrollView>
 
 </LinearLayout>
